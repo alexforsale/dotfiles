@@ -1,0 +1,4 @@
+[submodule "shells-common"]
+	path = shells-common
+	url = git@github.com:alexforsale/dotfiles-shells.git
+	branch = main
