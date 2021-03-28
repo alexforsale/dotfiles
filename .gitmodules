@@ -18,3 +18,7 @@
 	path = polybar
 	url = git@github.com:alexforsale/dotfiles-polybar.git
 	branch = main
+[submodule "apps"]
+	path = apps
+	url = git@github.com:alexforsale/dotfiles-apps.git
+	branch = main
