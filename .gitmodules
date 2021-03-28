@@ -6,3 +6,7 @@
 	path = bash
 	url = git@github.com:alexforsale/dotfiles-bash.git
 	branch = main
+[submodule "x"]
+	path = x
+	url = git@github.com:alexforsale/dotfiles-x.git
+	branch = main
