@@ -14,3 +14,7 @@
 	path = openbox
 	url = git@github.com:alexforsale/dotfiles-openbox.git
 	branch = main
+[submodule "polybar"]
+	path = polybar
+	url = git@github.com:alexforsale/dotfiles-polybar.git
+	branch = main
