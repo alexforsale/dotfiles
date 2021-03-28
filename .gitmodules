@@ -10,3 +10,7 @@
 	path = x
 	url = git@github.com:alexforsale/dotfiles-x.git
 	branch = main
+[submodule "openbox"]
+	path = openbox
+	url = git@github.com:alexforsale/dotfiles-openbox.git
+	branch = main
