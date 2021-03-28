@@ -2,3 +2,7 @@
 	path = shells-common
 	url = git@github.com:alexforsale/dotfiles-shells.git
 	branch = main
+[submodule "bash"]
+	path = bash
+	url = git@github.com:alexforsale/dotfiles-bash.git
+	branch = main
