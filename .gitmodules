@@ -1,28 +1,28 @@
 [submodule "shells"]
 	path = shells
-	url = https://github.com/alexforsale/dotfiles-shells.git
+	url = git@github.com:alexforsale/dotfiles-shells
 	branch = main
 [submodule "bash"]
 	path = bash
-	url = https://github.com/alexforsale/dotfiles-bash.git
+	url = git@github.com:alexforsale/dotfiles-bash.git
 	branch = main
 [submodule "x"]
 	path = x
-	url = https://github.com/alexforsale/dotfiles-x.git
+	url = git@github.com:alexforsale/dotfiles-x.git
 	branch = main
 [submodule "openbox"]
 	path = openbox
-	url = https://github.com/alexforsale/dotfiles-openbox.git
+	url = git@github.com:alexforsale/dotfiles-openbox.git
 	branch = main
 [submodule "polybar"]
 	path = polybar
-	url = https://github.com/alexforsale/dotfiles-polybar.git
+	url = git@github.com:alexforsale/dotfiles-polybar.git
 	branch = main
 [submodule "apps"]
 	path = apps
-	url = https://github.com/alexforsale/dotfiles-apps.git
+	url = git@github.com:alexforsale/dotfiles-apps.git
 	branch = main
 [submodule "i3"]
 	path = i3
-	url = https://github.com/alexforsale/dotfiles-i3.git
+	url = git@github.com:alexforsale/dotfiles-i3.git
 	branch = main
