@@ -1,5 +1,5 @@
-[submodule "shells-common"]
-	path = shells-common
+[submodule "shells"]
+	path = shells
 	url = https://github.com/alexforsale/dotfiles-shells.git
 	branch = main
 [submodule "bash"]
