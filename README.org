@@ -14,4 +14,4 @@
 #+cite_export:
 #+property: EXPORT_FILE_NAME: index.html
 * The Dotfiles
-  This is my personal dotfiles repository maintained using /Emacs/ /org mode/ literal configuration.
+  This is my personal dotfiles repository.
