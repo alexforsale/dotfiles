@@ -26,3 +26,11 @@
 	path = i3
 	url = git@github.com:alexforsale/dotfiles-i3.git
 	branch = main
+[submodule "zsh"]
+	path = zsh
+	url = git@github.com:alexforsale/dotfiles-zsh
+	branch = main
+[submodule "tcsh"]
+	path = tcsh
+	url = git@github.com:alexforsale/dotfiles-tcsh
+	branch = main
