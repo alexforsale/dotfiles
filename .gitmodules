@@ -34,3 +34,7 @@
 	path = tcsh
 	url = git@github.com:alexforsale/dotfiles-tcsh
 	branch = main
+[submodule "stumpwm"]
+	path = stumpwm
+	url = git@github.com:alexforsale/dotfiles-stumpwm
+	branch = main
