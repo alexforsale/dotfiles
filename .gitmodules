@@ -1,40 +1,40 @@
 [submodule "shells"]
 	path = shells
-	url = git@github.com:alexforsale/dotfiles-shells
+	url = git@gitlab.com:alexforsale/dotfiles-shells
 	branch = main
 [submodule "bash"]
 	path = bash
-	url = git@github.com:alexforsale/dotfiles-bash.git
+	url = git@gitlab.com:alexforsale/dotfiles-bash.git
 	branch = main
 [submodule "x"]
 	path = x
-	url = git@github.com:alexforsale/dotfiles-x.git
+	url = git@gitlab.com:alexforsale/dotfiles-x.git
 	branch = main
 [submodule "openbox"]
 	path = openbox
-	url = git@github.com:alexforsale/dotfiles-openbox.git
+	url = git@gitlab.com:alexforsale/dotfiles-openbox.git
 	branch = main
 [submodule "polybar"]
 	path = polybar
-	url = git@github.com:alexforsale/dotfiles-polybar.git
+	url = git@gitlab.com:alexforsale/dotfiles-polybar.git
 	branch = main
 [submodule "apps"]
 	path = apps
-	url = git@github.com:alexforsale/dotfiles-apps.git
+	url = git@gitlab.com:alexforsale/dotfiles-apps.git
 	branch = main
 [submodule "i3"]
 	path = i3
-	url = git@github.com:alexforsale/dotfiles-i3.git
+	url = git@gitlab.com:alexforsale/dotfiles-i3.git
 	branch = main
 [submodule "zsh"]
 	path = zsh
-	url = git@github.com:alexforsale/dotfiles-zsh
+	url = git@gitlab.com:alexforsale/dotfiles-zsh
 	branch = main
 [submodule "tcsh"]
 	path = tcsh
-	url = git@github.com:alexforsale/dotfiles-tcsh
+	url = git@gitlab.com:alexforsale/dotfiles-tcsh
 	branch = main
 [submodule "stumpwm"]
 	path = stumpwm
-	url = git@github.com:alexforsale/dotfiles-stumpwm
+	url = git@gitlab.com:alexforsale/dotfiles-stumpwm
 	branch = main
