@@ -46,3 +46,7 @@
 	path = SpaceVim
 	url = git@gitlab.com:alexforsale/SpaceVim.d.git
 	branch = main
+[submodule "fish"]
+	path = fish
+	url = git@gitlab.com:alexforsale/dotfiles-fish
+	branch = main
