@@ -61,3 +61,7 @@
 	path = dunst
 	url = git@gitlab.com:alexforsale/dotfiles-dunst.git
 	branch = main
+[submodule "rofi"]
+	path = rofi
+	url = git@github.com:alexforsale/dotfiles-rofi.git
+	branch = main
