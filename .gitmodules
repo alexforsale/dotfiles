@@ -55,9 +55,9 @@
 	url = git@gitlab.com:alexforsale/wallpapers.git
 [submodule "hyprland"]
 	path = hyprland
-	url = git@github.com:alexforsale/dotfiles-hyprland.git
+	url = git@gitlab.com:alexforsale/dotfiles-hyprland.git
 	branch = main
 [submodule "dunst"]
 	path = dunst
-	url = git@github.com:alexforsale/dotfiles-dunst.git
+	url = git@gitlab.com:alexforsale/dotfiles-dunst.git
 	branch = main
