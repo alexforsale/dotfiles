@@ -57,3 +57,7 @@
 	path = hyprland
 	url = git@github.com:alexforsale/dotfiles-hyprland.git
 	branch = main
+[submodule "dunst"]
+	path = dunst
+	url = git@github.com:alexforsale/dotfiles-dunst.git
+	branch = main
