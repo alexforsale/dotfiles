@@ -48,7 +48,7 @@
 	branch = main
 [submodule "fish"]
 	path = fish
-	url = git@gitlab.com:alexforsale/dotfiles-fish
+	url = git@github.com:alexforsale/dotfiles-fish
 	branch = main
 [submodule "wallpapers"]
 	path = wallpapers
