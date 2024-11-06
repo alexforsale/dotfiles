@@ -65,3 +65,7 @@
 	path = rofi
 	url = git@github.com:alexforsale/dotfiles-rofi.git
 	branch = main
+[submodule "music"]
+	path = music
+	url = git@github.com:alexforsale/dotfiles-music.git
+	branch = main
