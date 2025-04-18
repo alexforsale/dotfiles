@@ -69,3 +69,7 @@
 	path = music
 	url = git@github.com:alexforsale/dotfiles-music.git
 	branch = main
+[submodule "tmux"]
+	path = tmux
+	url = https://github.com/alexforsale/dotfiles-tmux.git
+	branch = main
