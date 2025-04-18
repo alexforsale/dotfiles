@@ -1,14 +1,14 @@
 [submodule "shells"]
 	path = shells
-	url = git@gitlab.com:alexforsale/dotfiles-shells
+	url = git@github.com:alexforsale/dotfiles-shells
 	branch = main
 [submodule "bash"]
 	path = bash
-	url = git@gitlab.com:alexforsale/dotfiles-bash.git
+	url = git@github.com:alexforsale/dotfiles-bash.git
 	branch = main
 [submodule "x"]
 	path = x
-	url = git@gitlab.com:alexforsale/dotfiles-x.git
+	url = git@github.com:alexforsale/dotfiles-x.git
 	branch = main
 [submodule "openbox"]
 	path = openbox
@@ -24,7 +24,7 @@
 	branch = main
 [submodule "i3"]
 	path = i3
-	url = git@gitlab.com:alexforsale/dotfiles-i3.git
+	url = git@github.com:alexforsale/dotfiles-i3.git
 	branch = main
 [submodule "zsh"]
 	path = zsh
@@ -55,11 +55,11 @@
 	url = git@gitlab.com:alexforsale/wallpapers.git
 [submodule "hyprland"]
 	path = hyprland
-	url = git@gitlab.com:alexforsale/dotfiles-hyprland.git
+	url = git@github.com:alexforsale/dotfiles-hyprland.git
 	branch = main
 [submodule "dunst"]
 	path = dunst
-	url = git@gitlab.com:alexforsale/dotfiles-dunst.git
+	url = git@github.com:alexforsale/dotfiles-dunst.git
 	branch = main
 [submodule "rofi"]
 	path = rofi
@@ -71,5 +71,5 @@
 	branch = main
 [submodule "tmux"]
 	path = tmux
-	url = https://github.com/alexforsale/dotfiles-tmux.git
+	url = git@github.com:alexforsale/dotfiles-tmux.git
 	branch = main
