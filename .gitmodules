@@ -38,10 +38,6 @@
 	path = qtile
 	url = git@gitlab.com:alexforsale/dotfiles-qtile
 	branch = main
-[submodule "SpaceVim"]
-	path = SpaceVim
-	url = git@gitlab.com:alexforsale/SpaceVim.d.git
-	branch = main
 [submodule "fish"]
 	path = fish
 	url = git@github.com:alexforsale/dotfiles-fish
