@@ -18,10 +18,6 @@
 	path = zsh
 	url = git@gitlab.com:alexforsale/dotfiles-zsh
 	branch = main
-[submodule "stumpwm"]
-	path = stumpwm
-	url = git@gitlab.com:alexforsale/dotfiles-stumpwm
-	branch = main
 [submodule "fish"]
 	path = fish
 	url = git@github.com:alexforsale/dotfiles-fish
