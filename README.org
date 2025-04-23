@@ -24,13 +24,105 @@
 ** Submodules
 
 *** [[https://alexforsale.github.io/dotfiles-shells/][Common Shell Initialization]]
-For all the common [[https://en.wikipedia.org/wiki/POSIX][POSIX-compliant]] shells (if you're using a common modern GNU/Linux distribution, chances are the system shells is POSIX-compliant). I've tested this with various GNU/Linux distributions, and also some BSD distributions.
+#+begin_html
+<a href="https://raw.githubusercontent.com/alexforsale/dotfiles-shells/main/LICENSE.md">
+<img alt="GPLv3" src="https://img.shields.io/github/license/alexforsale/dotfiles-shells" />
+</a>
+
+<a href="https://github.com/alexforsale/dotfiles-shells/actions/workflows/publish.yml">
+<img alt="Build status" src="https://github.com/alexforsale/dotfiles-shells/actions/workflows/publish.yml/badge.svg" />
+</a>
+#+end_html
+
+For all the common [[https://en.wikipedia.org/wiki/POSIX][POSIX-compliant]] shells (if you're using a common modern GNU/Linux distribution, chances are the system shells is POSIX-compliant). I've tested this with various GNU/Linux distributions, and also some BSD distributions. This repository contains the necessary environment variables needed are loaded when I logged in. I've also incorporate this for [[https://en.wikipedia.org/wiki/GNU_Guix][GNU Guix]], but /guix/ is forever changing, and I'm not currently use it for my daily distro.
 *** [[https://alexforsale.github.io/dotfiles-bash/][bash]]
-The second repository I stowed on every machines that using /bash/.
+#+begin_html
+<a href="https://raw.githubusercontent.com/alexforsale/dotfiles-bash/main/LICENSE.md">
+<img alt="GPLv3" src="https://img.shields.io/github/license/alexforsale/dotfiles-bash" />
+</a>
+
+<a href="https://github.com/alexforsale/dotfiles-bash/actions/workflows/publish.yml">
+<img alt="Build status" src="https://github.com/alexforsale/dotfiles-bash/actions/workflows/publish.yml/badge.svg" />
+</a>
+#+end_html
+
+The second repository I stowed on every machines that using /bash/. I actually have configuration for most of the other shells (including /fish/), but /bash/ is always my favorite.
+*** [[https://alexforsale.github.io/dotfiles-fish/][fish]]
+<a href="https://raw.githubusercontent.com/alexforsale/dotfiles-fish/main/LICENSE.md">
+<img alt="GPLv3" src="https://img.shields.io/github/license/alexforsale/dotfiles-fish" />
+</a>
+
+<a href="https://github.com/alexforsale/dotfiles-fish/actions/workflows/publish.yml">
+<img alt="Build status" src="https://github.com/alexforsale/dotfiles-fish/actions/workflows/publish.yml/badge.svg" />
+</a>
+#+end_html
+
+Not my main /shell/, only when I want to feel like a /zsh/ user without using [[https://ohmyz.sh/][oh-my-zsh]].
 *** [[https://alexforsale.github.io/dotfiles-tmux/][Tmux]]
+#+begin_html
+<a href="https://raw.githubusercontent.com/alexforsale/dotfiles-tmux/main/LICENSE.md">
+<img alt="GPLv3" src="https://img.shields.io/github/license/alexforsale/dotfiles-tmux" />
+</a>
+
+<a href="https://github.com/alexforsale/dotfiles-tmux/actions/workflows/publish.yml">
+<img alt="Build status" src="https://github.com/alexforsale/dotfiles-tmux/actions/workflows/publish.yml/badge.svg" />
+</a>
+#+end_html
+
 [[./assets/img/tmux-2025-04-23_20-14.png][file:./assets/img/tmux-2025-04-23_20-14.png]]
 tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal[fn:1].
+*** [[https://alexforsale.github.io/dotfiles-x/][Xorg Configuration]]
+#+begin_html
+<a href="https://raw.githubusercontent.com/alexforsale/dotfiles-x/main/LICENSE.md">
+<img alt="GPLv3" src="https://img.shields.io/github/license/alexforsale/dotfiles-x" />
+</a>
 
+<a href="https://github.com/alexforsale/dotfiles-x/actions/workflows/publish.yml">
+<img alt="Build status" src="https://github.com/alexforsale/dotfiles-x/actions/workflows/publish.yml/badge.svg" />
+</a>
+#+end_html
+
+For my machine that doesn't work well with [[https://en.wikipedia.org/wiki/Wayland_(protocol)][wayland]]. To be fair, Xorg is kinda convoluted, so I have settings for machines that uses a [[https://en.wikipedia.org/wiki/X_display_manager][display manager]], and also for one that only uses [[https://wiki.archlinux.org/title/Xinit][xinit]].
+*** [[https://alexforsale.github.io/dotfiles-i3/][i3]]
+#+begin_html
+<a href="https://raw.githubusercontent.com/alexforsale/dotfiles-i3/main/LICENSE.md">
+<img alt="GPLv3" src="https://img.shields.io/github/license/alexforsale/dotfiles-i3" />
+</a>
+
+<a href="https://github.com/alexforsale/dotfiles-i3/actions/workflows/publish.yml">
+<img alt="Build status" src="https://github.com/alexforsale/dotfiles-i3/actions/workflows/publish.yml/badge.svg" />
+</a>
+#+end_html
+
+The first [[https://en.wikipedia.org/wiki/Window_manager][window manager]] I installed whenever I needed a graphical environment.
+*** [[https://alexforsale.github.io/dotfiles-hyprland/][Hyprland]]
+#+begin_html
+<a href="https://raw.githubusercontent.com/alexforsale/dotfiles-hyprland/main/LICENSE.md">
+<img alt="GPLv3" src="https://img.shields.io/github/license/alexforsale/dotfiles-hyprland" />
+</a>
+
+<a href="https://github.com/alexforsale/dotfiles-hyprland/actions/workflows/publish.yml">
+<img alt="Build status" src="https://github.com/alexforsale/dotfiles-hyprland/actions/workflows/publish.yml/badge.svg" />
+</a>
+#+end_html
+
+Another window manager that I really like, a bit resource intensive but the really pleases me. Updated frequently, so really need to check their [[https://wiki.hyprland.org/][wiki]] whenever an update breaks my configuration.
+*** [[https://alexforsale.github.io/dotfiles-rofi/][Rofi]]
+#+begin_html
+<a href="https://raw.githubusercontent.com/alexforsale/dotfiles-rofi/main/LICENSE.md">
+<img alt="GPLv3" src="https://img.shields.io/github/license/alexforsale/dotfiles-rofi" />
+</a>
+
+<a href="https://github.com/alexforsale/dotfiles-rofi/actions/workflows/publish.yml">
+<img alt="Build status" src="https://github.com/alexforsale/dotfiles-rofi/actions/workflows/publish.yml/badge.svg" />
+</a>
+#+end_html
+
+A window switcher, application launcher and dmenu replacement.
+*** [[https://gitlab.com/alexforsale/wallpapers][Wallpapers]]
+Various wallpapers I found over the internet.
+* How to install
+First question is: *why?*. The second is: *Do you use Emacs?* All the source code for my /dotfiles/ and also this readme is written in [[https://en.wikipedia.org/wiki/Org-mode][org-mode]], and needs to be tangled from each /org-mode/ file in order to generate the code. After that, I use GNU stow for symbolic-linking each configuration to the actual location (usually in =~/.config/ or ~/.local/=). So it's really not a straight forward process.
 * Footnotes
 
 [fn:1] https://github.com/tmux/tmux/wiki
