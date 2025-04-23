@@ -14,10 +14,6 @@
 	path = i3
 	url = git@github.com:alexforsale/dotfiles-i3.git
 	branch = main
-[submodule "zsh"]
-	path = zsh
-	url = git@gitlab.com:alexforsale/dotfiles-zsh
-	branch = main
 [submodule "fish"]
 	path = fish
 	url = git@github.com:alexforsale/dotfiles-fish
