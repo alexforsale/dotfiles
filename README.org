@@ -68,7 +68,7 @@ A window switcher, application launcher and dmenu replacement.
 *** [[https://gitlab.com/alexforsale/wallpapers][Wallpapers]]
 Various wallpapers I found over the internet.
 * How to install
-First question is: *why?*. The second is: *Do you use Emacs?* All the source code for my /dotfiles/ and also this readme is written in [[https://en.wikipedia.org/wiki/Org-mode][org-mode]], and needs to be tangled from each /org-mode/ file in order to generate the code. After that, I use GNU stow for symbolic-linking each configuration to the actual location (usually in =~/.config/= or =~/.local/=). So it's really not a straight forward process.
+First question is: *why?* The second is: *Do you use Emacs?* All the source code for my /dotfiles/ and also this readme is written in [[https://en.wikipedia.org/wiki/Org-mode][org-mode]], and needs to be tangled from each /org-mode/ file in order to generate the code. After that, I use GNU stow for symbolic-linking each configuration to the actual location (usually in =~/.config/= or =~/.local/=). So it's really not a straight forward process.
 * Footnotes
 
 [fn:1] https://github.com/tmux/tmux/wiki
