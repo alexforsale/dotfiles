@@ -44,6 +44,7 @@ Not my main /shell/, only when I want to feel like a /zsh/ user without using [[
 
 [[https://github.com/alexforsale/dotfiles-tmux/actions/workflows/publish.yml/badge.svg]]
 
+#+caption: replace /Emacs/ with /vim/, and it's literally my only way of using tmux
 [[./assets/img/tmux-2025-04-23_20-14.png][file:./assets/img/tmux-2025-04-23_20-14.png]]
 tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal[fn:1].
 This is handy when I'm connecting to a remote machine via /ssh/, and starting tmux in the remote. This way, even if my connection is suddenly interrupted or lost I can simply reconnect the ssh, and reattach my previous /tmux/ session.
