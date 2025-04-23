@@ -13,6 +13,11 @@
 #+creator: Emacs 29.0.50 (Org mode 9.5.2)
 #+cite_export:
 #+property: EXPORT_FILE_NAME: index.html
+#+setupfile: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+HTML_HEAD: <style> #content{max-width:1800px;}</style>
+#+HTML_HEAD: <style> p{max-width:800px;}</style>
+#+HTML_HEAD: <style> li{max-width:800px;}</style>
+
 * The Dotfiles
   This is my personal dotfiles repository. All submodules (and also this repository) is meant to be [[https://www.gnu.org/software/stow/manual/stow.html][stowed]] (a method of symbolic linking).
 ** Submodules
