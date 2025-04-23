@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2025-04-23 Wed 19:10 -->
+<!-- 2025-04-23 Wed 19:33 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>The Dotfiles</title>
@@ -28,57 +28,238 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org221dc88">1. The Dotfiles</a>
+<li><a href="#org91e23b3">1. The Dotfiles</a>
 <ul>
-<li><a href="#org00c3a56">1.1. Submodules</a>
+<li><a href="#orga78b1d1">1.1. Submodules</a>
 <ul>
-<li><a href="#org8dfc42d">1.1.1. Common Shell Initialization</a></li>
-<li><a href="#org3c8cc35">1.1.2. bash</a></li>
-<li><a href="#orgcf0f0aa">1.1.3. Tmux</a></li>
+<li><a href="#org545f0d2">1.1.1. Common Shell Initialization</a></li>
+<li><a href="#org6905e7d">1.1.2. bash</a></li>
+<li><a href="#org0cb5cf8">1.1.3. fish</a></li>
+<li><a href="#orge234a67">1.1.4. Tmux</a></li>
+<li><a href="#orgd98fa05">1.1.5. Xorg Configuration</a></li>
+<li><a href="#org1572858">1.1.6. i3</a></li>
+<li><a href="#orga39a1b9">1.1.7. Hyprland</a></li>
+<li><a href="#org21cc22f">1.1.8. Rofi</a></li>
+<li><a href="#org749969f">1.1.9. Wallpapers</a></li>
 </ul>
 </li>
 </ul>
 </li>
+<li><a href="#org402e1fe">2. How to install</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org221dc88" class="outline-2">
-<h2 id="org221dc88"><span class="section-number-2">1.</span> The Dotfiles</h2>
+<div id="outline-container-org91e23b3" class="outline-2">
+<h2 id="org91e23b3"><span class="section-number-2">1.</span> The Dotfiles</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 This is my personal dotfiles repository. All submodules (and also this repository) is meant to be <a href="https://www.gnu.org/software/stow/manual/stow.html">stowed</a> (a method of symbolic linking).
 </p>
 </div>
-<div id="outline-container-org00c3a56" class="outline-3">
-<h3 id="org00c3a56"><span class="section-number-3">1.1.</span> Submodules</h3>
+<div id="outline-container-orga78b1d1" class="outline-3">
+<h3 id="orga78b1d1"><span class="section-number-3">1.1.</span> Submodules</h3>
 <div class="outline-text-3" id="text-1-1">
 </div>
-<div id="outline-container-org8dfc42d" class="outline-4">
-<h4 id="org8dfc42d"><span class="section-number-4">1.1.1.</span> <a href="https://alexforsale.github.io/dotfiles-shells/">Common Shell Initialization</a></h4>
+<div id="outline-container-org545f0d2" class="outline-4">
+<h4 id="org545f0d2"><span class="section-number-4">1.1.1.</span> <a href="https://alexforsale.github.io/dotfiles-shells/">Common Shell Initialization</a></h4>
 <div class="outline-text-4" id="text-1-1-1">
+<div class="html" id="org71b62b3">
 <p>
-For all the common <a href="https://en.wikipedia.org/wiki/POSIX">POSIX-compliant</a> shells (if you're using a common modern GNU/Linux distribution, chances are the system shells is POSIX-compliant). I've tested this with various GNU/Linux distributions, and also some BSD distributions.
+&lt;a href="<a href="https://raw.githubusercontent.com/alexforsale/dotfiles-shells/main/LICENSE.md">https://raw.githubusercontent.com/alexforsale/dotfiles-shells/main/LICENSE.md</a>"&gt;
+&lt;img alt="GPLv3" src="<a href="https://img.shields.io/github/license/alexforsale/dotfiles-shells">https://img.shields.io/github/license/alexforsale/dotfiles-shells</a>" /&gt;
+&lt;/a&gt;
+</p>
+
+<p>
+&lt;a href="<a href="https://github.com/alexforsale/dotfiles-shells/actions/workflows/publish.yml">https://github.com/alexforsale/dotfiles-shells/actions/workflows/publish.yml</a>"&gt;
+&lt;img alt="Build status" src="<img src="https://github.com/alexforsale/dotfiles-shells/actions/workflows/publish.yml/badge.svg" alt="badge.svg" class="org-svg" />" /&gt;
+&lt;/a&gt;
+</p>
+
+</div>
+
+<p>
+For all the common <a href="https://en.wikipedia.org/wiki/POSIX">POSIX-compliant</a> shells (if you're using a common modern GNU/Linux distribution, chances are the system shells is POSIX-compliant). I've tested this with various GNU/Linux distributions, and also some BSD distributions. This repository contains the necessary environment variables needed are loaded when I logged in. I've also incorporate this for <a href="https://en.wikipedia.org/wiki/GNU_Guix">GNU Guix</a>, but <i>guix</i> is forever changing, and I'm not currently use it for my daily distro.
 </p>
 </div>
 </div>
-<div id="outline-container-org3c8cc35" class="outline-4">
-<h4 id="org3c8cc35"><span class="section-number-4">1.1.2.</span> <a href="https://alexforsale.github.io/dotfiles-bash/">bash</a></h4>
+<div id="outline-container-org6905e7d" class="outline-4">
+<h4 id="org6905e7d"><span class="section-number-4">1.1.2.</span> <a href="https://alexforsale.github.io/dotfiles-bash/">bash</a></h4>
 <div class="outline-text-4" id="text-1-1-2">
+<div class="html" id="orgee7cf1a">
 <p>
-The second repository I stowed on every machines that using <i>bash</i>.
+&lt;a href="<a href="https://raw.githubusercontent.com/alexforsale/dotfiles-bash/main/LICENSE.md">https://raw.githubusercontent.com/alexforsale/dotfiles-bash/main/LICENSE.md</a>"&gt;
+&lt;img alt="GPLv3" src="<a href="https://img.shields.io/github/license/alexforsale/dotfiles-bash">https://img.shields.io/github/license/alexforsale/dotfiles-bash</a>" /&gt;
+&lt;/a&gt;
+</p>
+
+<p>
+&lt;a href="<a href="https://github.com/alexforsale/dotfiles-bash/actions/workflows/publish.yml">https://github.com/alexforsale/dotfiles-bash/actions/workflows/publish.yml</a>"&gt;
+&lt;img alt="Build status" src="<img src="https://github.com/alexforsale/dotfiles-bash/actions/workflows/publish.yml/badge.svg" alt="badge.svg" class="org-svg" />" /&gt;
+&lt;/a&gt;
+</p>
+
+</div>
+
+<p>
+The second repository I stowed on every machines that using <i>bash</i>. I actually have configuration for most of the other shells (including <i>fish</i>), but <i>bash</i> is always my favorite.
 </p>
 </div>
 </div>
-<div id="outline-container-orgcf0f0aa" class="outline-4">
-<h4 id="orgcf0f0aa"><span class="section-number-4">1.1.3.</span> <a href="https://alexforsale.github.io/dotfiles-tmux/">Tmux</a></h4>
+<div id="outline-container-org0cb5cf8" class="outline-4">
+<h4 id="org0cb5cf8"><span class="section-number-4">1.1.3.</span> <a href="https://alexforsale.github.io/dotfiles-fish/">fish</a></h4>
 <div class="outline-text-4" id="text-1-1-3">
+<p>
+&lt;a href="<a href="https://raw.githubusercontent.com/alexforsale/dotfiles-fish/main/LICENSE.md">https://raw.githubusercontent.com/alexforsale/dotfiles-fish/main/LICENSE.md</a>"&gt;
+&lt;img alt="GPLv3" src="<a href="https://img.shields.io/github/license/alexforsale/dotfiles-fish">https://img.shields.io/github/license/alexforsale/dotfiles-fish</a>" /&gt;
+&lt;/a&gt;
+</p>
+
+<p>
+&lt;a href="<a href="https://github.com/alexforsale/dotfiles-fish/actions/workflows/publish.yml">https://github.com/alexforsale/dotfiles-fish/actions/workflows/publish.yml</a>"&gt;
+&lt;img alt="Build status" src="<img src="https://github.com/alexforsale/dotfiles-fish/actions/workflows/publish.yml/badge.svg" alt="badge.svg" class="org-svg" />" /&gt;
+&lt;/a&gt;
+#+end<sub>html</sub>
+</p>
+
+<p>
+Not my main <i>shell</i>, only when I want to feel like a <i>zsh</i> user without using <a href="https://ohmyz.sh/">oh-my-zsh</a>.
+</p>
+</div>
+</div>
+<div id="outline-container-orge234a67" class="outline-4">
+<h4 id="orge234a67"><span class="section-number-4">1.1.4.</span> <a href="https://alexforsale.github.io/dotfiles-tmux/">Tmux</a></h4>
+<div class="outline-text-4" id="text-1-1-4">
+<div class="html" id="org6f57252">
+<p>
+&lt;a href="<a href="https://raw.githubusercontent.com/alexforsale/dotfiles-tmux/main/LICENSE.md">https://raw.githubusercontent.com/alexforsale/dotfiles-tmux/main/LICENSE.md</a>"&gt;
+&lt;img alt="GPLv3" src="<a href="https://img.shields.io/github/license/alexforsale/dotfiles-tmux">https://img.shields.io/github/license/alexforsale/dotfiles-tmux</a>" /&gt;
+&lt;/a&gt;
+</p>
+
+<p>
+&lt;a href="<a href="https://github.com/alexforsale/dotfiles-tmux/actions/workflows/publish.yml">https://github.com/alexforsale/dotfiles-tmux/actions/workflows/publish.yml</a>"&gt;
+&lt;img alt="Build status" src="<img src="https://github.com/alexforsale/dotfiles-tmux/actions/workflows/publish.yml/badge.svg" alt="badge.svg" class="org-svg" />" /&gt;
+&lt;/a&gt;
+</p>
+
+</div>
+
 <p>
 <a href="./assets/img/tmux-2025-04-23_20-14.png"><img src="./assets/img/tmux-2025-04-23_20-14.png" alt="tmux-2025-04-23_20-14.png" /></a>
 tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>.
 </p>
 </div>
 </div>
+<div id="outline-container-orgd98fa05" class="outline-4">
+<h4 id="orgd98fa05"><span class="section-number-4">1.1.5.</span> <a href="https://alexforsale.github.io/dotfiles-x/">Xorg Configuration</a></h4>
+<div class="outline-text-4" id="text-1-1-5">
+<div class="html" id="org515657e">
+<p>
+&lt;a href="<a href="https://raw.githubusercontent.com/alexforsale/dotfiles-x/main/LICENSE.md">https://raw.githubusercontent.com/alexforsale/dotfiles-x/main/LICENSE.md</a>"&gt;
+&lt;img alt="GPLv3" src="<a href="https://img.shields.io/github/license/alexforsale/dotfiles-x">https://img.shields.io/github/license/alexforsale/dotfiles-x</a>" /&gt;
+&lt;/a&gt;
+</p>
+
+<p>
+&lt;a href="<a href="https://github.com/alexforsale/dotfiles-x/actions/workflows/publish.yml">https://github.com/alexforsale/dotfiles-x/actions/workflows/publish.yml</a>"&gt;
+&lt;img alt="Build status" src="<img src="https://github.com/alexforsale/dotfiles-x/actions/workflows/publish.yml/badge.svg" alt="badge.svg" class="org-svg" />" /&gt;
+&lt;/a&gt;
+</p>
+
+</div>
+
+<p>
+For my machine that doesn't work well with <a href="https://en.wikipedia.org/wiki/Wayland_(protocol)">wayland</a>. To be fair, Xorg is kinda convoluted, so I have settings for machines that uses a <a href="https://en.wikipedia.org/wiki/X_display_manager">display manager</a>, and also for one that only uses <a href="https://wiki.archlinux.org/title/Xinit">xinit</a>.
+</p>
+</div>
+</div>
+<div id="outline-container-org1572858" class="outline-4">
+<h4 id="org1572858"><span class="section-number-4">1.1.6.</span> <a href="https://alexforsale.github.io/dotfiles-i3/">i3</a></h4>
+<div class="outline-text-4" id="text-1-1-6">
+<div class="html" id="orga9cfb7e">
+<p>
+&lt;a href="<a href="https://raw.githubusercontent.com/alexforsale/dotfiles-i3/main/LICENSE.md">https://raw.githubusercontent.com/alexforsale/dotfiles-i3/main/LICENSE.md</a>"&gt;
+&lt;img alt="GPLv3" src="<a href="https://img.shields.io/github/license/alexforsale/dotfiles-i3">https://img.shields.io/github/license/alexforsale/dotfiles-i3</a>" /&gt;
+&lt;/a&gt;
+</p>
+
+<p>
+&lt;a href="<a href="https://github.com/alexforsale/dotfiles-i3/actions/workflows/publish.yml">https://github.com/alexforsale/dotfiles-i3/actions/workflows/publish.yml</a>"&gt;
+&lt;img alt="Build status" src="<img src="https://github.com/alexforsale/dotfiles-i3/actions/workflows/publish.yml/badge.svg" alt="badge.svg" class="org-svg" />" /&gt;
+&lt;/a&gt;
+</p>
+
+</div>
+
+<p>
+The first <a href="https://en.wikipedia.org/wiki/Window_manager">window manager</a> I installed whenever I needed a graphical environment.
+</p>
+</div>
+</div>
+<div id="outline-container-orga39a1b9" class="outline-4">
+<h4 id="orga39a1b9"><span class="section-number-4">1.1.7.</span> <a href="https://alexforsale.github.io/dotfiles-hyprland/">Hyprland</a></h4>
+<div class="outline-text-4" id="text-1-1-7">
+<div class="html" id="org60e5aaa">
+<p>
+&lt;a href="<a href="https://raw.githubusercontent.com/alexforsale/dotfiles-hyprland/main/LICENSE.md">https://raw.githubusercontent.com/alexforsale/dotfiles-hyprland/main/LICENSE.md</a>"&gt;
+&lt;img alt="GPLv3" src="<a href="https://img.shields.io/github/license/alexforsale/dotfiles-hyprland">https://img.shields.io/github/license/alexforsale/dotfiles-hyprland</a>" /&gt;
+&lt;/a&gt;
+</p>
+
+<p>
+&lt;a href="<a href="https://github.com/alexforsale/dotfiles-hyprland/actions/workflows/publish.yml">https://github.com/alexforsale/dotfiles-hyprland/actions/workflows/publish.yml</a>"&gt;
+&lt;img alt="Build status" src="<img src="https://github.com/alexforsale/dotfiles-hyprland/actions/workflows/publish.yml/badge.svg" alt="badge.svg" class="org-svg" />" /&gt;
+&lt;/a&gt;
+</p>
+
+</div>
+
+<p>
+Another window manager that I really like, a bit resource intensive but the really pleases me. Updated frequently, so really need to check their <a href="https://wiki.hyprland.org/">wiki</a> whenever an update breaks my configuration.
+</p>
+</div>
+</div>
+<div id="outline-container-org21cc22f" class="outline-4">
+<h4 id="org21cc22f"><span class="section-number-4">1.1.8.</span> <a href="https://alexforsale.github.io/dotfiles-rofi/">Rofi</a></h4>
+<div class="outline-text-4" id="text-1-1-8">
+<div class="html" id="orgfbdc96c">
+<p>
+&lt;a href="<a href="https://raw.githubusercontent.com/alexforsale/dotfiles-rofi/main/LICENSE.md">https://raw.githubusercontent.com/alexforsale/dotfiles-rofi/main/LICENSE.md</a>"&gt;
+&lt;img alt="GPLv3" src="<a href="https://img.shields.io/github/license/alexforsale/dotfiles-rofi">https://img.shields.io/github/license/alexforsale/dotfiles-rofi</a>" /&gt;
+&lt;/a&gt;
+</p>
+
+<p>
+&lt;a href="<a href="https://github.com/alexforsale/dotfiles-rofi/actions/workflows/publish.yml">https://github.com/alexforsale/dotfiles-rofi/actions/workflows/publish.yml</a>"&gt;
+&lt;img alt="Build status" src="<img src="https://github.com/alexforsale/dotfiles-rofi/actions/workflows/publish.yml/badge.svg" alt="badge.svg" class="org-svg" />" /&gt;
+&lt;/a&gt;
+</p>
+
+</div>
+
+<p>
+A window switcher, application launcher and dmenu replacement.
+</p>
+</div>
+</div>
+<div id="outline-container-org749969f" class="outline-4">
+<h4 id="org749969f"><span class="section-number-4">1.1.9.</span> <a href="https://gitlab.com/alexforsale/wallpapers">Wallpapers</a></h4>
+<div class="outline-text-4" id="text-1-1-9">
+<p>
+Various wallpapers I found over the internet.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org402e1fe" class="outline-2">
+<h2 id="org402e1fe"><span class="section-number-2">2.</span> How to install</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+First question is: <b>why?</b>. The second is: <b>Do you use Emacs?</b> All the source code for my <i>dotfiles</i> and also this readme is written in <a href="https://en.wikipedia.org/wiki/Org-mode">org-mode</a>, and needs to be tangled from each <i>org-mode</i> file in order to generate the code. After that, I use GNU stow for symbolic-linking each configuration to the actual location (usually in <code>~/.config/ or ~/.local/</code>). So it's really not a straight forward process.
+</p>
 </div>
 </div>
 <div id="footnotes">
@@ -95,7 +276,7 @@ tmux is a terminal multiplexer. It lets you switch easily between several progra
 <div id="postamble" class="status">
 <p class="date">Date: 2022-06-04 Sat 00:00</p>
 <p class="author">Author: Kristian Alexander P</p>
-<p class="date">Created: 2025-04-23 Wed 19:10</p>
+<p class="date">Created: 2025-04-23 Wed 19:33</p>
 </div>
 </body>
 </html>
