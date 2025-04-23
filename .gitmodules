@@ -30,10 +30,6 @@
 	path = zsh
 	url = git@gitlab.com:alexforsale/dotfiles-zsh
 	branch = main
-[submodule "tcsh"]
-	path = tcsh
-	url = git@gitlab.com:alexforsale/dotfiles-tcsh
-	branch = main
 [submodule "stumpwm"]
 	path = stumpwm
 	url = git@gitlab.com:alexforsale/dotfiles-stumpwm
