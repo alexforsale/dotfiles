@@ -56,6 +56,8 @@ For my machine that doesn't work well with [[https://en.wikipedia.org/wiki/Wayla
 [[https://github.com/alexforsale/dotfiles-i3/actions/workflows/publish.yml/badge.svg]]
 
 The first [[https://en.wikipedia.org/wiki/Window_manager][window manager]] I installed whenever I needed a graphical environment.
+#+caption: i3wm workspace
+[[./assets/img/i3-wm-2025-04-24_03-54.png][file:./assets/img/i3-wm-2025-04-24_03-54.png]]
 *** [[https://alexforsale.github.io/dotfiles-hyprland/][Hyprland]]
 
 [[https://github.com/alexforsale/dotfiles-hyprland/actions/workflows/publish.yml/badge.svg]]
