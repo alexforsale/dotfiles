@@ -20,7 +20,9 @@
 #+export_file_name: index.html
 
 * The Dotfiles
-  This is my personal dotfiles repository. All submodules (and also this repository) is meant to be [[https://www.gnu.org/software/stow/manual/stow.html][stowed]] (a method of symbolic linking).
+This is my personal dotfiles repository. All submodules (and also this repository) is meant to be [[https://www.gnu.org/software/stow/manual/stow.html][stowed]] (a method of symbolic linking). For now each submodule is pointed to their respective /main/ branch.
+
+Perhaps the other feature of this repository (and also all the submodules) is /github pages/ generation automated using [[https://github.com/features/actions][using actions]], see the =.github/workflows/publish.yml= file on each repository for more detail.
 ** Submodules
 
 *** [[https://alexforsale.github.io/dotfiles-shells/][Common Shell Initialization]]
