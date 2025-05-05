@@ -72,6 +72,11 @@ Another window manager that I really like, a bit resource intensive but the real
 [[https://github.com/alexforsale/dotfiles-rofi/actions/workflows/publish.yml/badge.svg]]
 
 A window switcher, application launcher and dmenu replacement.
+*** [[https://alexforsale.github.io/dotfiles-dunst/][Dunst]]
+
+[[https://github.com/alexforsale/dotfiles-dunst/actions/workflows/publish.yml/badge.svg]]
+
+Lightweight and customizable notification daemon.
 *** [[https://gitlab.com/alexforsale/wallpapers][Wallpapers]]
 Various wallpapers I found over the internet. The only repository not on /github/.
 * How to install
