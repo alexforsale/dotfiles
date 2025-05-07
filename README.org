@@ -75,6 +75,7 @@ A window switcher, application launcher and dmenu replacement.
 
 [[https://github.com/alexforsale/dotfiles-dunst/actions/workflows/publish.yml/badge.svg]]
 
+[[./assets/img/dunst-2025-05-07_12-40.png]]
 Lightweight and customizable notification daemon.
 *** [[https://gitlab.com/alexforsale/wallpapers][Wallpapers]]
 Various wallpapers I found over the internet. The only repository not on /github/.
