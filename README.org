@@ -26,7 +26,6 @@ Perhaps the other feature of this repository (and also all the submodules) is /g
 ** Submodules
 
 *** [[https://alexforsale.github.io/dotfiles-shells/][Common Shell Initialization]]
-
 [[https://github.com/alexforsale/dotfiles-shells/actions/workflows/publish.yml/badge.svg]]
 
 For all the common [[https://en.wikipedia.org/wiki/POSIX][POSIX-compliant]] shells (if you're using a common modern GNU/Linux distribution, chances are the system shells is POSIX-compliant). I've tested this with various GNU/Linux distributions, and also some BSD distributions. This repository contains the necessary environment variables needed are loaded when I logged in. I've also incorporate this for [[https://en.wikipedia.org/wiki/GNU_Guix][GNU Guix]], but /guix/ is forever changing, and I'm not currently use it for my daily distro.
