@@ -70,14 +70,20 @@ Another window manager that I really like, a bit resource intensive but the real
 
 [[https://github.com/alexforsale/dotfiles-rofi/actions/workflows/publish.yml/badge.svg]]
 
+#+caption: rofi
+[[https://alexforsale.github.io/dotfiles-rofi/assets/img/rofi-menu-2025-04-24_01-33.png]]
 A window switcher, application launcher and dmenu replacement.
 *** [[https://alexforsale.github.io/dotfiles-dunst/][Dunst]]
 
 [[https://github.com/alexforsale/dotfiles-dunst/actions/workflows/publish.yml/badge.svg]]
 
+#+caption: dunst
 [[./assets/img/dunst-2025-05-07_12-40.png]]
 Lightweight and customizable notification daemon.
 *** [[https://gitlab.com/alexforsale/wallpapers][Wallpapers]]
+
+#+caption: wallpapers
+[[./assets/img/wallpaper-2025-05-17_14-25.png][file:./assets/img/wallpaper-2025-05-17_14-25.png]]
 Various wallpapers I found over the internet. The only repository not on /github/.
 * How to install
 First question is: *why?* The second is: *Do you use Emacs?* All the source code for my /dotfiles/ and also this readme is written in [[https://en.wikipedia.org/wiki/Org-mode][org-mode]], and needs to be tangled from each /org-mode/ file in order to generate the code. After that, I use GNU stow for symbolic-linking each configuration to the actual location (usually in =~/.config/= or =~/.local/=). So it's really not a straight forward process.
