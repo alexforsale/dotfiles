@@ -38,6 +38,9 @@ The second repository I stowed on every machines that using /bash/. I actually h
 
 [[https://github.com/alexforsale/dotfiles-fish/actions/workflows/publish.yml/badge.svg]]
 
+#+caption: alacritty running fish
+[[./assets/img/fish-2025-05-17_14-37.png][file:./assets/img/fish-2025-05-17_14-37.png]]
+
 Not my main /shell/, only when I want to feel like a /zsh/ user without using [[https://ohmyz.sh/][oh-my-zsh]].
 *** [[https://alexforsale.github.io/dotfiles-tmux/][Tmux]]
 
