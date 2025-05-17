@@ -80,6 +80,10 @@ A window switcher, application launcher and dmenu replacement.
 #+caption: dunst
 [[./assets/img/dunst-2025-05-07_12-40.png]]
 Lightweight and customizable notification daemon.
+*** [[https://alexforsale.github.io/dotfiles-conky/][Conky]]
+#+caption: conky system monitor
+[[https://alexforsale.github.io/dotfiles-conky/assets/img/conky-system-2025-05-16_20-28.png]]
+a system monitor software for the X Window System, Wayland and other things, too. It is available for GNU/Linux and FreeBSD. It is free software released under the terms of the GPL license. Conky is able to monitor many system variables including CPU, memory, swap, disk space, temperature, top, upload, download, system messages, and much more. It is extremely configurable.
 *** [[https://gitlab.com/alexforsale/wallpapers][Wallpapers]]
 
 #+caption: wallpapers

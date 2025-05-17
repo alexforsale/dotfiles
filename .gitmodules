@@ -42,3 +42,7 @@
 	path = music
 	url = git@github.com:alexforsale/dotfiles-music.git
 	branch = main
+[submodule "conky"]
+	path = conky
+	url = git@github.com:alexforsale/dotfiles-conky.git
+	branch = main
