@@ -85,6 +85,8 @@ The first [[https://en.wikipedia.org/wiki/Window_manager][window manager]] I ins
 
 [[https://github.com/alexforsale/dotfiles-hyprland/actions/workflows/publish.yml/badge.svg]]
 
+#+caption: Hyprland
+[[https://github.com/alexforsale/dotfiles-hyprland/raw/main/assets/img/Hyprland.png]]
 
 Another window manager that I really like, a bit resource intensive but the really pleases me. Updated frequently, so really need to check their [[https://wiki.hyprland.org/][wiki]] whenever an update breaks my configuration.
 
