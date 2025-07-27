@@ -46,3 +46,7 @@
 	path = conky
 	url = git@github.com:alexforsale/dotfiles-conky.git
 	branch = main
+[submodule "sway"]
+	path = sway
+	url = git@github.com:alexforsale/dotfiles-sway.git
+	branch = main
