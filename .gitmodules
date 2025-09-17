@@ -50,3 +50,15 @@
 	path = sway
 	url = git@github.com:alexforsale/dotfiles-sway.git
 	branch = main
+[submodule "wofi"]
+	path = wofi
+	url = git@github.com:alexforsale/dotfiles-wofi.git
+	branch = main
+[submodule "waybar"]
+	path = wofi
+	url = git@github.com:alexforsale/dotfiles-waybar.git
+	branch = main
+[submodule "alacritty"]
+	path = wofi
+	url = git@github.com:alexforsale/dotfiles-alacritty.git
+	branch = main
