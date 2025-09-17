@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2025-07-25 Fri 10:46 -->
+<!-- 2025-09-17 Wed 10:15 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>My Collection of dotfiles in one place!</title>
@@ -11,12 +11,14 @@
 <meta name="generator" content="Org Mode" />
 <link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
 <link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/code-copy.css"/>
 <link rel="stylesheet" type="text/css" href="src/readtheorg_theme/css/search.css"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/search.js"></script>
 <script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/code-copy.js"></script>
 <style> #content{max-width:1800px;}</style>
 <style> p{max-width:800px;}</style>
 <style> li{max-width:800px;}</style>
@@ -28,33 +30,33 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org7a437d4">The Dotfiles</a>
+<li><a href="#org9508e49">The Dotfiles</a>
 <ul>
-<li><a href="#org751d2a4">Submodules</a>
+<li><a href="#org1aa27d9">Submodules</a>
 <ul>
-<li><a href="#org119773f">Common Shell Initialization</a></li>
-<li><a href="#orgb16ebdb">bash</a></li>
-<li><a href="#org2be7686">fish</a></li>
-<li><a href="#org47ad671">Tmux</a></li>
-<li><a href="#orgaae4c04">Xorg Configuration</a></li>
-<li><a href="#orgc58eb71">i3</a></li>
-<li><a href="#org08df548">Hyprland</a></li>
-<li><a href="#orgbe51eae">Rofi</a></li>
-<li><a href="#org6725b11">Dunst</a></li>
-<li><a href="#org6ecc13c">Conky</a></li>
-<li><a href="#org977f6be">Wallpapers</a></li>
+<li><a href="#orgfeba4c6">Common Shell Initialization</a></li>
+<li><a href="#org0b7ba46">bash</a></li>
+<li><a href="#org84fd3b6">fish</a></li>
+<li><a href="#org066058c">Tmux</a></li>
+<li><a href="#org5851a9e">Xorg Configuration</a></li>
+<li><a href="#org65fc0fb">i3</a></li>
+<li><a href="#orgf66bc07">Hyprland</a></li>
+<li><a href="#org32cb6dc">Rofi</a></li>
+<li><a href="#org3547345">Dunst</a></li>
+<li><a href="#org302552e">Conky</a></li>
+<li><a href="#org9ba0bfc">Wallpapers</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orgbfa4bfa">How to install</a></li>
+<li><a href="#org696d3b7">How to install</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org7a437d4" class="outline-2">
-<h2 id="org7a437d4">The Dotfiles</h2>
-<div class="outline-text-2" id="text-org7a437d4">
+<div id="outline-container-org9508e49" class="outline-2">
+<h2 id="org9508e49">The Dotfiles</h2>
+<div class="outline-text-2" id="text-org9508e49">
 <p>
 This is my personal dotfiles repository. All submodules (and also this repository) is meant to be <a href="https://www.gnu.org/software/stow/manual/stow.html">stowed</a> (a method of symbolic linking). For now each submodule is pointed to their respective <i>main</i> branch.
 </p>
@@ -63,21 +65,21 @@ This is my personal dotfiles repository. All submodules (and also this repositor
 Perhaps the other feature of this repository (and also all the submodules) is <i>github pages</i> generation automated <a href="https://github.com/features/actions">using actions</a>, see the <code>.github/workflows/publish.yml</code> file on each repository for more detail.
 </p>
 </div>
-<div id="outline-container-org751d2a4" class="outline-3">
-<h3 id="org751d2a4">Submodules</h3>
-<div class="outline-text-3" id="text-org751d2a4">
+<div id="outline-container-org1aa27d9" class="outline-3">
+<h3 id="org1aa27d9">Submodules</h3>
+<div class="outline-text-3" id="text-org1aa27d9">
 </div>
-<div id="outline-container-org119773f" class="outline-4">
-<h4 id="org119773f"><a href="https://alexforsale.github.io/dotfiles-shells/">Common Shell Initialization</a></h4>
-<div class="outline-text-4" id="text-org119773f">
+<div id="outline-container-orgfeba4c6" class="outline-4">
+<h4 id="orgfeba4c6"><a href="https://alexforsale.github.io/dotfiles-shells/">Common Shell Initialization</a></h4>
+<div class="outline-text-4" id="text-orgfeba4c6">
 
-<div id="org21bb735" class="figure">
+<div id="orga9c16b1" class="figure">
 <p><img src="https://github.com/alexforsale/dotfiles-shells/actions/workflows/publish.yml/badge.svg" alt="badge.svg" class="org-svg" />
 </p>
 </div>
 
 
-<div id="orgfa00d3d" class="figure">
+<div id="org19216df" class="figure">
 <p><a href="./assets/img/profile-2025-05-17_14-41.png"><img src="./assets/img/profile-2025-05-17_14-41.png" alt="profile-2025-05-17_14-41.png" /></a>
 </p>
 <p><span class="figure-number">Figure 1: </span>my .profile</p>
@@ -92,17 +94,17 @@ For all the common <a href="https://en.wikipedia.org/wiki/POSIX">POSIX-compliant
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb16ebdb" class="outline-4">
-<h4 id="orgb16ebdb"><a href="https://alexforsale.github.io/dotfiles-bash/">bash</a></h4>
-<div class="outline-text-4" id="text-orgb16ebdb">
+<div id="outline-container-org0b7ba46" class="outline-4">
+<h4 id="org0b7ba46"><a href="https://alexforsale.github.io/dotfiles-bash/">bash</a></h4>
+<div class="outline-text-4" id="text-org0b7ba46">
 
-<div id="org0d29ba3" class="figure">
+<div id="orga20faad" class="figure">
 <p><img src="https://github.com/alexforsale/dotfiles-bash/actions/workflows/publish.yml/badge.svg" alt="badge.svg" class="org-svg" />
 </p>
 </div>
 
 
-<div id="org505afd9" class="figure">
+<div id="org68c60fc" class="figure">
 <p><a href="./assets/img/bash-2025-05-17_14-44.png"><img src="./assets/img/bash-2025-05-17_14-44.png" alt="bash-2025-05-17_14-44.png" /></a>
 </p>
 <p><span class="figure-number">Figure 2: </span>bash version</p>
@@ -117,17 +119,17 @@ The second repository I stowed on every machines that using <i>bash</i>. I actua
 </ul>
 </div>
 </div>
-<div id="outline-container-org2be7686" class="outline-4">
-<h4 id="org2be7686"><a href="https://alexforsale.github.io/dotfiles-fish/">fish</a></h4>
-<div class="outline-text-4" id="text-org2be7686">
+<div id="outline-container-org84fd3b6" class="outline-4">
+<h4 id="org84fd3b6"><a href="https://alexforsale.github.io/dotfiles-fish/">fish</a></h4>
+<div class="outline-text-4" id="text-org84fd3b6">
 
-<div id="org994567e" class="figure">
+<div id="orgc5a730f" class="figure">
 <p><img src="https://github.com/alexforsale/dotfiles-fish/actions/workflows/publish.yml/badge.svg" alt="badge.svg" class="org-svg" />
 </p>
 </div>
 
 
-<div id="org1b9052f" class="figure">
+<div id="orgd14a340" class="figure">
 <p><a href="./assets/img/fish-2025-05-17_14-37.png"><img src="./assets/img/fish-2025-05-17_14-37.png" alt="fish-2025-05-17_14-37.png" /></a>
 </p>
 <p><span class="figure-number">Figure 3: </span>alacritty running fish</p>
@@ -142,17 +144,17 @@ Not my main <i>shell</i>, only when I want to feel like a <i>zsh</i> user withou
 </ul>
 </div>
 </div>
-<div id="outline-container-org47ad671" class="outline-4">
-<h4 id="org47ad671"><a href="https://alexforsale.github.io/dotfiles-tmux/">Tmux</a></h4>
-<div class="outline-text-4" id="text-org47ad671">
+<div id="outline-container-org066058c" class="outline-4">
+<h4 id="org066058c"><a href="https://alexforsale.github.io/dotfiles-tmux/">Tmux</a></h4>
+<div class="outline-text-4" id="text-org066058c">
 
-<div id="orga3fc777" class="figure">
+<div id="org2b88f10" class="figure">
 <p><img src="https://github.com/alexforsale/dotfiles-tmux/actions/workflows/publish.yml/badge.svg" alt="badge.svg" class="org-svg" />
 </p>
 </div>
 
 
-<div id="orgc968664" class="figure">
+<div id="orgc4acc5a" class="figure">
 <p><a href="./assets/img/tmux-2025-04-23_20-14.png"><img src="./assets/img/tmux-2025-04-23_20-14.png" alt="tmux-2025-04-23_20-14.png" /></a>
 </p>
 <p><span class="figure-number">Figure 4: </span>replace <i>Emacs</i> with <i>vim</i>, and it's literally my only way of using tmux</p>
@@ -168,11 +170,11 @@ This is handy when I'm connecting to a remote machine via <i>ssh</i>, and starti
 </ul>
 </div>
 </div>
-<div id="outline-container-orgaae4c04" class="outline-4">
-<h4 id="orgaae4c04"><a href="https://alexforsale.github.io/dotfiles-x/">Xorg Configuration</a></h4>
-<div class="outline-text-4" id="text-orgaae4c04">
+<div id="outline-container-org5851a9e" class="outline-4">
+<h4 id="org5851a9e"><a href="https://alexforsale.github.io/dotfiles-x/">Xorg Configuration</a></h4>
+<div class="outline-text-4" id="text-org5851a9e">
 
-<div id="orgcdded94" class="figure">
+<div id="org2189727" class="figure">
 <p><img src="https://github.com/alexforsale/dotfiles-x/actions/workflows/publish.yml/badge.svg" alt="badge.svg" class="org-svg" />
 </p>
 </div>
@@ -186,11 +188,11 @@ For my machine that doesn't work well with <a href="https://en.wikipedia.org/wik
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc58eb71" class="outline-4">
-<h4 id="orgc58eb71"><a href="https://alexforsale.github.io/dotfiles-i3/">i3</a></h4>
-<div class="outline-text-4" id="text-orgc58eb71">
+<div id="outline-container-org65fc0fb" class="outline-4">
+<h4 id="org65fc0fb"><a href="https://alexforsale.github.io/dotfiles-i3/">i3</a></h4>
+<div class="outline-text-4" id="text-org65fc0fb">
 
-<div id="orgde6a740" class="figure">
+<div id="org01d77e2" class="figure">
 <p><img src="https://github.com/alexforsale/dotfiles-i3/actions/workflows/publish.yml/badge.svg" alt="badge.svg" class="org-svg" />
 </p>
 </div>
@@ -199,7 +201,7 @@ For my machine that doesn't work well with <a href="https://en.wikipedia.org/wik
 The first <a href="https://en.wikipedia.org/wiki/Window_manager">window manager</a> I installed whenever I needed a graphical environment.
 </p>
 
-<div id="orgaf2e3ee" class="figure">
+<div id="orged87da9" class="figure">
 <p><a href="./assets/img/i3-wm-2025-04-24_03-54.png"><img src="./assets/img/i3-wm-2025-04-24_03-54.png" alt="i3-wm-2025-04-24_03-54.png" /></a>
 </p>
 <p><span class="figure-number">Figure 5: </span>i3wm workspace</p>
@@ -210,17 +212,17 @@ The first <a href="https://en.wikipedia.org/wiki/Window_manager">window manager<
 </ul>
 </div>
 </div>
-<div id="outline-container-org08df548" class="outline-4">
-<h4 id="org08df548"><a href="https://alexforsale.github.io/dotfiles-hyprland/">Hyprland</a></h4>
-<div class="outline-text-4" id="text-org08df548">
+<div id="outline-container-orgf66bc07" class="outline-4">
+<h4 id="orgf66bc07"><a href="https://alexforsale.github.io/dotfiles-hyprland/">Hyprland</a></h4>
+<div class="outline-text-4" id="text-orgf66bc07">
 
-<div id="org893fc53" class="figure">
+<div id="org9968c44" class="figure">
 <p><img src="https://github.com/alexforsale/dotfiles-hyprland/actions/workflows/publish.yml/badge.svg" alt="badge.svg" class="org-svg" />
 </p>
 </div>
 
 
-<div id="org0342fc3" class="figure">
+<div id="orgc37a546" class="figure">
 <p><img src="https://github.com/alexforsale/dotfiles-hyprland/raw/main/assets/img/Hyprland.png" alt="Hyprland.png" />
 </p>
 <p><span class="figure-number">Figure 6: </span>Hyprland</p>
@@ -235,17 +237,17 @@ Another window manager that I really like, a bit resource intensive but the real
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbe51eae" class="outline-4">
-<h4 id="orgbe51eae"><a href="https://alexforsale.github.io/dotfiles-rofi/">Rofi</a></h4>
-<div class="outline-text-4" id="text-orgbe51eae">
+<div id="outline-container-org32cb6dc" class="outline-4">
+<h4 id="org32cb6dc"><a href="https://alexforsale.github.io/dotfiles-rofi/">Rofi</a></h4>
+<div class="outline-text-4" id="text-org32cb6dc">
 
-<div id="orgc6fe5e4" class="figure">
+<div id="org9529e6a" class="figure">
 <p><img src="https://github.com/alexforsale/dotfiles-rofi/actions/workflows/publish.yml/badge.svg" alt="badge.svg" class="org-svg" />
 </p>
 </div>
 
 
-<div id="orgefb2f13" class="figure">
+<div id="orgf2c62b5" class="figure">
 <p><img src="https://alexforsale.github.io/dotfiles-rofi/assets/img/rofi-menu-2025-04-24_01-33.png" alt="rofi-menu-2025-04-24_01-33.png" />
 </p>
 <p><span class="figure-number">Figure 7: </span>rofi</p>
@@ -260,11 +262,11 @@ A window switcher, application launcher and dmenu replacement.
 </ul>
 </div>
 </div>
-<div id="outline-container-org6725b11" class="outline-4">
-<h4 id="org6725b11"><a href="https://alexforsale.github.io/dotfiles-dunst/">Dunst</a></h4>
-<div class="outline-text-4" id="text-org6725b11">
+<div id="outline-container-org3547345" class="outline-4">
+<h4 id="org3547345"><a href="https://alexforsale.github.io/dotfiles-dunst/">Dunst</a></h4>
+<div class="outline-text-4" id="text-org3547345">
 
-<div id="org501e777" class="figure">
+<div id="org087d1b6" class="figure">
 <p><img src="https://github.com/alexforsale/dotfiles-dunst/actions/workflows/publish.yml/badge.svg" alt="badge.svg" class="org-svg" />
 </p>
 </div>
@@ -279,11 +281,11 @@ Lightweight and customizable notification daemon.
 </ul>
 </div>
 </div>
-<div id="outline-container-org6ecc13c" class="outline-4">
-<h4 id="org6ecc13c"><a href="https://alexforsale.github.io/dotfiles-conky/">Conky</a></h4>
-<div class="outline-text-4" id="text-org6ecc13c">
+<div id="outline-container-org302552e" class="outline-4">
+<h4 id="org302552e"><a href="https://alexforsale.github.io/dotfiles-conky/">Conky</a></h4>
+<div class="outline-text-4" id="text-org302552e">
 
-<div id="org6057024" class="figure">
+<div id="org6536a3f" class="figure">
 <p><img src="https://alexforsale.github.io/dotfiles-conky/assets/img/conky-system-2025-05-16_20-28.png" alt="conky-system-2025-05-16_20-28.png" />
 </p>
 <p><span class="figure-number">Figure 8: </span>conky system monitor</p>
@@ -298,11 +300,11 @@ a system monitor software for the X Window System, Wayland and other things, too
 </ul>
 </div>
 </div>
-<div id="outline-container-org977f6be" class="outline-4">
-<h4 id="org977f6be"><a href="https://gitlab.com/alexforsale/wallpapers">Wallpapers</a></h4>
-<div class="outline-text-4" id="text-org977f6be">
+<div id="outline-container-org9ba0bfc" class="outline-4">
+<h4 id="org9ba0bfc"><a href="https://gitlab.com/alexforsale/wallpapers">Wallpapers</a></h4>
+<div class="outline-text-4" id="text-org9ba0bfc">
 
-<div id="orge96b6c6" class="figure">
+<div id="org46d3598" class="figure">
 <p><a href="./assets/img/wallpaper-2025-05-17_14-25.png"><img src="./assets/img/wallpaper-2025-05-17_14-25.png" alt="wallpaper-2025-05-17_14-25.png" /></a>
 </p>
 <p><span class="figure-number">Figure 9: </span>wallpapers</p>
@@ -315,9 +317,9 @@ Various wallpapers I found over the internet. The only repository not on <i>gith
 </div>
 </div>
 </div>
-<div id="outline-container-orgbfa4bfa" class="outline-2">
-<h2 id="orgbfa4bfa">How to install</h2>
-<div class="outline-text-2" id="text-orgbfa4bfa">
+<div id="outline-container-org696d3b7" class="outline-2">
+<h2 id="org696d3b7">How to install</h2>
+<div class="outline-text-2" id="text-org696d3b7">
 <p>
 First question is: <b>why?</b> The second is: <b>Do you use Emacs?</b> All the source code for my <i>dotfiles</i> and also this readme is written in <a href="https://en.wikipedia.org/wiki/Org-mode">org-mode</a>, and needs to be tangled from each <i>org-mode</i> file in order to generate the code. After that, I use GNU stow for symbolic-linking each configuration to the actual location (usually in <code>~/.config/</code> or <code>~/.local/</code>). So it's really not a straight forward process.
 </p>
@@ -337,7 +339,7 @@ First question is: <b>why?</b> The second is: <b>Do you use Emacs?</b> All the s
 <div id="postamble" class="status">
 <p class="date">Date: 2022-06-04 Sat 00:00</p>
 <p class="author">Author: Kristian Alexander P</p>
-<p class="date">Created: 2025-07-25 Fri 10:46</p>
+<p class="date">Created: 2025-09-17 Wed 10:15</p>
 </div>
 </body>
 </html>
